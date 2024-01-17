@@ -116,10 +116,14 @@ body {
 }
 
 .aktivitas {
-  height: 300px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   margin: 100px 0;
+}
+
+#struktur {
+  height: auto;
 }
 
 .aktivitas .judul {
