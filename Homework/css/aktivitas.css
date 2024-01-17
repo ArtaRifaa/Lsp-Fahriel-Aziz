@@ -13,6 +13,7 @@ body {
 
 .navbar {
   width: 100%;
+  height: 25vh;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -67,72 +68,43 @@ body {
 
 .list {
   display: flex;
-  height: 50px;
-  position: sticky;
-  top: 0;
-  z-index: 999999;
-  align-items: center;
+  height: 25%;
   width: 100%;
   background-color: #88ab8e;
   border-bottom: 0.7px solid black;
-}
-.list a {
-  text-align: center;
-  border-left: 0.1px solid gray;
-  margin: 0.1px;
-  padding: 7px 10px;
-  border-right: 0.1px solid gray;
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.list a:hover {
-  background-color: #afc8ad;
 }
 
 .hero {
   padding-top: 3rem;
   margin: 0 40px;
-  width: 90%;
-  margin: auto;
+  display: flex;
+}
+
+.hero .judul p {
+  font-size: 70px;
+}
+
+.hero .judul p:last-child {
+  font-size: 20px;
+  width: 80%;
+  font-weight: 300;
 }
 
 .fotohero {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1600px;
+  width: 800px;
 }
-.fotohero-2 {
+.fotohero-1 {
   display: flex;
-  width: 1350px;
+  width: 600px;
+  margin-left: 2.8%;
 }
-.fotohero-2 img {
+.fotohero-1 img {
   width: 100%; /* Mengubah ukuran gambar menjadi 50% dari lebar kontainernya */
   height: auto;
 }
 .fotohero img {
   width: 500px;
-}
-
-.aktivitas {
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  margin: 100px 0;
-}
-
-.aktivitas .judul {
-  margin: 10px 0;
-}
-
-.aktivitas .judul p {
-  font-size: 30px;
-}
-
-.aktivitas ol {
-  display: flex;
-  flex-direction: column;
-  height: 900px;
-  justify-content: space-between;
 }
